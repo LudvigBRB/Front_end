@@ -1,7 +1,7 @@
 import settings from "./settings";
 
-//const URL = settings.mainURL;
-const URL = "http://localhost:8080/securitystarter/";
+const URL = settings.mainURL;
+//const URL = "http://localhost:8080/securitystarter/";
 
 function handleHttpErrors(res) {
   if (!res.ok) {
